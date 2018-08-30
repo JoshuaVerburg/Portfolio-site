@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import Expensify from './Expensify';
 import Indecision from './Indecision';
 import BoilerPlate from './BoilerPlate';
+import PortComponent from './PortComponent';
 
 const Portfolio = (props) => {
     return (
@@ -19,7 +20,7 @@ const Portfolio = (props) => {
                 </div>
                 <div  className="portfolio__item">
                 <a href="https://github.com/JoshuaVerburg/react-boilerplate" className="portfolio__item"><BoilerPlate/></a>
-                    <Expensify/>
+                <a href="https://github.com/JoshuaVerburg/Portfolio-site" className="portfolio__item"><PortComponent/></a>
                 </div>
             </div>
         </div>
