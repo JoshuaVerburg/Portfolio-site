@@ -1,0 +1,17 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: $s-size;
+    margin-bottom: $s-size;
+}
+.contact__content {
+    background: fade-out(black, .15);
+    padding: $l-size;
+
+}
+.contact__item {
+    color: white;
+}

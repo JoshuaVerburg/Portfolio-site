@@ -1,0 +1,19 @@
+.header {
+    margin: $s-size;
+}
+
+.header__content {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.header__title {
+    color: white;
+    text-decoration: none;
+}
+
+.header__subtitle {
+    color: white;
+    text-decoration: none;
+}
